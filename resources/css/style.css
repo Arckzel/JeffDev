@@ -1,0 +1,203 @@
+/* ***** */
+/* Geral */
+/* ***** */
+
+.titulo-content{
+    text-align: center;
+    box-shadow: black 0px 0px 2px 0px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+/* Index.php */
+#head{
+    color: white;
+    background-color: white;
+    margin-right: 0px;
+    box-shadow: black 0px 1px 2px 0px;
+}
+#logo{
+    width: 300px;
+    text-align: center;
+    text-shadow: #000000 5px 2px 8px;
+    font-style: italic;
+}
+#logo-txt{
+    font-family: serif;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: black;
+    border-radius: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: black 0px 3px 10px 0px;
+    margin-top: 10px;
+}
+#logo-txt a{
+    color: white;
+}
+#menus{    
+    text-align: center;
+    margin-top: 13px;
+}
+#menus a{
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding-right: 2%;
+    padding-left: 2%;
+    box-shadow: black 0px 0px 2px 0px;
+    text-shadow: none;
+}
+#menus a:hover{
+    background-color: rgb(230, 227, 227);
+    border-style: none;
+    border-radius: 5px;
+    padding-right: 3%;
+    padding-left: 3%;
+    box-shadow: black 0px 0px 5px 0px;
+    text-shadow: black 1px 3px 5px;
+}
+header #menu{
+    max-height: 20px;
+    width: 90%;
+    margin: auto;
+}
+header #menu:hover {
+    min-height: 65px;
+    width: 80%;
+    margin-top: 5px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    /* box-shadow: black 0px 0px 7px 0px; */
+    /* transition-delay: 1s; */
+    transition-duration: 1s;
+}
+header #menu:hover #botao{
+    height: 0px;
+    visibility: hidden;
+}
+header #menu:hover .escondido{
+    visibility: visible;
+}
+header #botao{
+    background-color: #ffffff;
+    width: 30px;
+    margin: auto;
+    max-height: 10px;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 7px 0px;
+}
+header #botao2{
+    visibility: hidden;
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    max-height: 10px;
+    border-radius: 20px;
+    box-shadow: inset black 0px 0px 7px 0px;
+}
+header .escondido{
+    visibility: hidden;
+    float: inherit;
+}
+#content{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    place-content: center;
+}
+#content .col-md-11{
+    padding: 50px;
+    box-shadow: black 0px 1px 2px 0px;
+}
+#footer{
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    margin-right: 0px;
+    text-align: center;
+}
+#footer #logo{
+    font-family: serif;
+    color: white;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#footer #enviar-email{
+    max-width: unset;
+    margin-bottom: 10px;
+}
+#footer-end{
+    padding: 1%;;
+}
+#footer-end p{
+    margin-bottom: 0px;
+}
+
+/* ******* */
+/* 404.php */
+/* ******* */
+
+#p404{
+    text-align: center;
+}
+#p404 a{
+    background-color: red;
+}
+
+/* **** */
+/* Home */
+/* **** */
+
+
+
+/* ******** */
+/* Produtos */
+/* ******** */
+
+/* ******** */
+/* Mensagem */
+/* ******** */
+
+#mensagem #barra-vermelha{
+    background-color: red;
+    color: white;
+    padding: 2%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#mensagem #barra-vermelha p{
+    margin-bottom: 0px;
+}
+#mensagem #barra-vermelha a{
+    color: white;
+    background-color: #0109ff;
+    font-weight: bold;
+}
+#mensagem form{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+#mensagem .bloco-form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#mensagem input{
+    border-radius: 20px;
+    padding: 2%;
+    border-style: none;
+    box-shadow: black 0px 0px 2px 0px;
+    width: 400px;
+    text-align: center;
+}
+#mensagem #caixa-de-mensagem{
+    border-radius: 20px;
+    text-indent: 15px;
+    padding: 2%;
+}
